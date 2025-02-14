@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="valentineMusic" src="valentine-music.mp3" loop></audio>
+    
+    <!-- Halaman 1 -->
+    <div id="page1" class="page">
+        <h1 class="glow-text">💖 Selamat Datang, Sayang 💖</h1>
+        <h8 class="glow-text" id="introText">Mari Rayakan Hari Penuh Cinta Ini!</h8>
+        <div id="heartZone" class="heart-zone"></div>
+        <button id="startButton" class="glow-button bounce">Mulai Petualangan Cinta</button>
+    </div>
+
+    <!-- Halaman 2 -->
+    <div id="page2" class="page hidden">
+        <h1 id="valentineText" class="valentine-text"></h1>
+        <div class="photo-background"></div>
+        <div id="floatingHearts" class="floating-hearts"></div>
+        <!-- Tombol untuk lanjut ke halaman 3 -->
+        <button id="continueButton"  class="heart-button pulse">❤️</button>
+    </div>
+
+    <!-- Halaman 3 -->
+    <div id="page3" class="page hidden">
+        <h1 id="loveText" class="love-text"></h1>
+        <p class="romantic-text">"Sayang, dari hati yang paling dalam, aku mau bilang makasih buat semua yang udah kita lalui bareng. Dari tawa-tawa kecil yang bikin hari jadi cerah, sampai pelukan yang selalu bikin aku merasa tenang. Kamu itu bukan cuma pacar, tapi juga sahabat, tempat pulang, dan alasan kenapa aku selalu semangat tiap hari. Makasih udah sabar sama aku, udah nemenin di saat terbaik maupun terburuk. Aku nggak bisa bayangin hidup tanpa kamu, karena kamu udah jadi bagian dari cerita yang paling indah dalam hidupku.
+
+            Tapi aku juga sadar, aku nggak selalu sempurna. Ada saat di mana aku bikin kamu kesel, sedih, atau mungkin ngerasa nggak dihargai. Aku minta maaf buat semua kata-kata atau tindakan yang mungkin nyakitin kamu, yang mungkin bikin kamu ngerasa sendiri padahal aku ada di sini. Aku nggak pernah berniat buat nyakitin kamu, dan aku janji bakal jadi yang lebih baik buat kamu. Karena buat aku, kamu itu bukan sekadar seseorang yang aku sayang, tapi kamu adalah alasan kenapa aku mau terus berjuang dan belajar jadi versi terbaik dari diriku sendiri. Aku cinta kamu, Riri. Selamanya. 💖✨"</p>
+        <button id="replayButton" class="glow-button bounce">💌 Petualangan Selesai</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
